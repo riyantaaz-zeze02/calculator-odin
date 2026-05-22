@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="calculator-shell">
+    <div class="calculator">
+      <header class="display" id="display">0</header>
+
+      <div class="keys">
+        <button class="function" id="clear">C</button>
+        <button class="function" id="backspace">←</button>
+        <button class="operator" data-operator="/">÷</button>
+        <button class="operator" data-operator="*">×</button>
+
+        <button class="digit" data-digit="7">7</button>
+        <button class="digit" data-digit="8">8</button>
+        <button class="digit" data-digit="9">9</button>
+        <button class="operator" data-operator="-">−</button>
+
+        <button class="digit" data-digit="4">4</button>
+        <button class="digit" data-digit="5">5</button>
+        <button class="digit" data-digit="6">6</button>
+        <button class="operator" data-operator="+">+</button>
+
+        <button class="digit" data-digit="1">1</button>
+        <button class="digit" data-digit="2">2</button>
+        <button class="digit" data-digit="3">3</button>
+        <button class="equals" id="equals">=</button>
+
+        <button class="digit" id="zero" data-digit="0">0</button>
+        <button class="digit" id="decimal">.</button>
+      </div>
+    </div>
+  </main>
+  <script src="app.js" defer></script>
+</body>
+</html>
